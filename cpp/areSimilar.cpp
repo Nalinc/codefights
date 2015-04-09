@@ -24,8 +24,8 @@ bool areSimilar(std::vector<int> A, std::vector<int> B) {
   for (int i = 0; i < A.size(); i++) {
     for (int j = i; j < A.size(); j++) {
       bool equal = true;
-      int tmp = A[j];
-      A[j] = A[i];
+      int tmp = A[j]; // int tmp = A[i]
+      A[j] = A[i];    // A[i] = A[j] 
       A[j] = tmp;
       for (int k = 0; k < A.size(); k++) {
         if (A[k] != B[k]) {
