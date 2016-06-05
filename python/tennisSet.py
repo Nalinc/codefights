@@ -1,3 +1,5 @@
+#Question: https://python.web.id/blog/determine-if-given-score-possible-ended-tennis-set-cf/
+
 def tennisSet(score1, score2):
     if score1 < score2:
         tmp = score1
