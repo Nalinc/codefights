@@ -1,4 +1,4 @@
-# https://python.web.id/blog/check-prime-number-cf/
+# Question: https://python.web.id/blog/check-prime-number-cf/
 
 def eratosthenesSieve(n):
     out = []

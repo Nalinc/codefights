@@ -1,4 +1,4 @@
-Question: https://python.web.id/blog/replace-first-digit-regex-expression-cf/
+#Question: https://python.web.id/blog/replace-first-digit-regex-expression-cf/
 
 def replaceFirstDigitRegExp(inputString):
     return re.sub('[0-9]', '#', inputString, count=1)

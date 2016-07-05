@@ -1,4 +1,4 @@
-Question: https://python.web.id/blog/triangular-numbers-cf/
+#Question: https://python.web.id/blog/triangular-numbers-cf/
 
 def isSum(value):
     sum_ = 0
